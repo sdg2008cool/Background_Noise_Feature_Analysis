@@ -79,7 +79,7 @@ if __name__=='__main__':
     mensa_noise=bgn_analysis(r"D:\HEADAutoEQ_3.1.200\HEAD acoustics\HEADAutoEQ\Background Noise\Mensa_63dB.wav","Mensa Noise",0,None)
     callcenter_noise=bgn_analysis(r"D:\HEADAutoEQ_3.1.200\HEAD acoustics\HEADAutoEQ\Background Noise\Callcenter1_bin.wav","CallCenter Noise",0,None)
 
-    '''
+    
     plt.figure(1)
     plt.subplot(421)
     pub_noise.Spectrum_Display()
@@ -155,8 +155,6 @@ if __name__=='__main__':
     mensa_noise.Right_Spectrogram_Display()
     plt.subplot(428)
     callcenter_noise.Right_Spectrogram_Display()
-    '''
-
 
     plt.show()
 
